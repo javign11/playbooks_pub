@@ -4,4 +4,4 @@
       template:
         src: template.j2
         dest: /tmp/configuracion.conf
-        mode: '0777'
+        mode: '0700'
