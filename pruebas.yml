@@ -1,8 +1,8 @@
 - hosts: webservers
   tasks:
-  - name: Template a file to /tmp/configuracion.conf
-  template:
-    src: template.j2
-    dest: /tmp/configuracion.conf
-    group: wheel
-    mode: '0777'
+    - name: Template a file to /tmp/configuracion.conf
+    template:
+      src: template.j2
+      dest: /tmp/configuracion.conf
+      group: wheel
+      mode: '0777'
