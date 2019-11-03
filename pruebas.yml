@@ -4,5 +4,4 @@
       template:
         src: template.j2
         dest: /tmp/configuracion.conf
-        group: wheel
         mode: '0777'
