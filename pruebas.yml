@@ -1,4 +1,4 @@
-- hosts: '{{ ip_addr }}'
+- hosts: 'all'
   tasks:
     - name: Template a file to /tmp/configuracion.conf
       template:
