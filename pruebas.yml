@@ -5,10 +5,3 @@
         src: template.j2
         dest: /tmp/configuracion.conf
         mode: '0700'
-      replace:
-        path: /etc/sysconfig/iptables
-        regexp: '192.168.16.1'
-        replace: '192.168.100.3'
-      service:
-        name: iptables
-        state: restarted
